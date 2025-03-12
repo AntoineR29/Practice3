@@ -21,6 +21,10 @@ public class Date {
   private final int month;
   private final int year;
 
+  public void printDate() {
+    System.out.println("Date: " + this);
+  }
+
   /**
    * Retrieves the day component of this date.
    *
