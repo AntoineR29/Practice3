@@ -3,6 +3,8 @@ package org.iis2024;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
+
+
 /**
  * Represents a calendar date with validation capabilities.
  *
@@ -15,11 +17,15 @@ import java.text.SimpleDateFormat;
  * Instances of this class are immutable, meaning that once a Date object is created, the day,
  * month, and year values cannot be changed.
  */
+
+public Date(int dia, int mes, int año) { this.day = dia; this.month = mes; this.year = año;}
 public class Date {
   private int fieldAddedByCollaborator;
   private final int day;
   private final int month;
   private final int year;
+
+
 
   public void printDate() {
     System.out.println("Date: " + this);
